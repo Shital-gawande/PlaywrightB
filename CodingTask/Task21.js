@@ -1,5 +1,14 @@
 let marks = 85;
 
+if(typeof marks !==number){
+    console.log("please enter the valid number");
+    return; // this will exit the execution
+}
+if(marks<0 || marks>100){
+    console.log("marks cannot be -ve and greater than 100");
+    return;
+}
+
 if(marks >= 90 && marks <= 100) {
     console.log("Grade: A");
 } else if(marks >= 80 && marks < 90) {
