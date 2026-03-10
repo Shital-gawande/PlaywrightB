@@ -3,7 +3,7 @@ let responses = [200, 201, 404, 500, 404, 200, 503];
 let res1 = [200,201,203,205,206];
 
 let statusR = responses.every(res=>res>=200 && res<299);
-console.log(statusR);
+console.log(statusR); // returns false
 
 let statusS = res1.every(res=>res>=200 && res<299);
-console.log(statusS);
+console.log(statusS); // true
