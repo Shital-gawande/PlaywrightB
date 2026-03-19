@@ -25,3 +25,7 @@ str.replace(/Test/g, "pass"); // replace with regex /g for replacing all
 
 "hello wolrd".split(" "); // split by space
 "hello".split(''); //split each char
+
+let parts = ["2024", "03", "07"];
+let date = parts.join("-");
+console.log(date);
