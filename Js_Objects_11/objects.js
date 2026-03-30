@@ -29,3 +29,11 @@ console.log(a.status);
 let c = { status: "pass" };
 let d = { status: "pass" };
 console.log(c === d);
+
+//object creation using new keyword
+const person = new Object({
+    firstName : "Shital",
+    lastName: "Gawande",
+    age: 23
+});
+console.log(person);
