@@ -18,6 +18,15 @@ for(let i =1;i<=5;i++){
 }
 
 console.log('---------------------------------');
+
+for(let n=5;n>=1;n--){
+    let row ="";
+    for(let i =n;i>=1;i--){
+        row += "*";
+    }
+    console.log(row);
+}
+console.log('---------------------------------');
 let n = 3;
 for (let i = 1; i <= n; i++) {
     let row = " ";
