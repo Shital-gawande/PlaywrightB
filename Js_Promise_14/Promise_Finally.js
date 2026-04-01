@@ -10,3 +10,5 @@ call.then((response)=>{ // Resolve
     console.log("API call completed");
 });
 
+// .finally() ALWAYS runs — whether the test passed or failed. Just like afterEach() in Cypress or Playwright.
+
