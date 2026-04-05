@@ -1,6 +1,7 @@
 {
   "name": "playwrightb",
   "version": "1.0.0",
+  "type": "module",
   "description": "This repository contains basic JavaScript examples and Playwright scripts.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Shital-gawande/PlaywrightB/issues"
   },
