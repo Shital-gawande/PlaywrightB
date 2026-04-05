@@ -1,6 +1,6 @@
 // we can add multiple exports in an file using named export
 
-const userName = "Shital Gawande";
+const userName = "Shital Takalikar";
 
 function getUserName(){
     console.log("UserName is :",userName);
