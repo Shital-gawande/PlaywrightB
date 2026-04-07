@@ -15,7 +15,7 @@ parseFloat("3.14rem"); //3.14
 let str = "hello"; //. Things are immutable in nature in Java. 
 str[0] = "H";
 console.log(str);
-console.log(str);
+
 
 let upper = str.toUpperCase();
 console.log(str);
