@@ -19,4 +19,5 @@ class UITest extends BaseTest{
 
 let test = new UITest();
 test.setUp();
+console.log("---");
 test.tearDown();

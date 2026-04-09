@@ -10,13 +10,19 @@ class Animal{
         console.log(`${this.name} is sleeping`);
     }
 }
-class Dog{
+class Dog extends Animal{
 
     constructor(name,breed){
         super(name);
         this.breed= breed;
     }
     bark(){
-        console.log(`${super.name} is barking`);
+        console.log(this.name, 'is barking');
     }
 }
+
+let d1 = new Dog("Rocky","Labrador");
+d1.eat();
+d1.bark();
+d1.sleep();
+console.log(d1.breed);
